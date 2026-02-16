@@ -1,73 +1,102 @@
-# Welcome to your Lovable project
+📅 Event Management Application – MERN Stack
+📌 Project Description
 
-## Project info
+The Event Management Application is a full-stack web platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that allows users to discover events, register for them, and manage their event participation through a secure and user-friendly interface.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The application focuses on delivering a smooth Event Discovery Experience by efficiently handling large collections of events, supporting dynamic searching and filtering, and maintaining user state across navigation.
 
-## How can I edit this code?
+🎯 Key Objectives
 
-There are several ways of editing your application.
+Provide a secure authentication system for users
 
-**Use Lovable**
+Enable users to explore and search events efficiently
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Allow event registration with real-time capacity validation
 
-Changes made via Lovable will be committed automatically to this repo.
+Maintain a personalized dashboard for users
 
-**Use your preferred IDE**
+Handle continuously growing event data efficiently
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Frontend: React.js (JavaScript, Hooks, Context API)
 
-Follow these steps:
+Backend: Node.js, Express.js
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Database: MongoDB (Mongoose ODM)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Authentication: JWT & bcryptjs
 
-# Step 3: Install the necessary dependencies.
-npm i
+API Testing: Postman
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Deployment: Vercel (Frontend), Render (Backend)
 
-**Edit a file directly in GitHub**
+Version Control: Git & GitHub
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🔐 Authentication Features
 
-**Use GitHub Codespaces**
+User Registration with hashed passwords
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+User Login with JWT-based authentication
 
-## What technologies are used for this project?
+Protected routes for event registration and dashboard access
 
-This project is built with:
+Secure token verification middleware
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📋 Event Features
 
-## How can I deploy this project?
+Browse all available events
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+View detailed event information
 
-## Can I connect a custom domain to my Lovable project?
+Register for events
 
-Yes, you can!
+Cancel event registrations
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Automatic seat availability tracking
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Prevention of duplicate registrations
+
+Each event includes:
+
+Event name
+
+Organizer
+
+Location
+
+Date & time
+
+Description
+
+Capacity
+
+Category / tags
+
+🔍 Event Discovery Experience
+
+Real-time text search using flexible queries
+
+Filter events by location, category, and date
+
+Dynamic API-based data fetching
+
+Efficient handling of large event datasets
+
+Persistent browsing state during navigation
+
+Real-time update of event availability
+
+📊 User Dashboard
+
+View all registered events
+
+Categorized display:
+
+Upcoming Events
+
+Past Events
+
+Easy event management and cancellation
+
+Personalized user experience
